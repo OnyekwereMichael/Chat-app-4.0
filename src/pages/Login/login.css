@@ -1,0 +1,35 @@
+.loginBackground {
+  background-image: url("../../assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+form {
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  padding: 30px;
+  width: 28%;
+  border-radius: 10px;
+}
+
+.login {
+  color: #077eff;
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
+.inputField{
+  border: 2px solid ;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  form{
+    width: 95%;
+  }
+}
